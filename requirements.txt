@@ -1,2 +1,4 @@
 Django==4.2.4
 Python==3.10.12
+djangorestframework==3.14.0
+djangorestframework-jwt==1.11.0
