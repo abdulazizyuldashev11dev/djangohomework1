@@ -1,0 +1,27 @@
+# Ignore JetBrains IDEA (PyCharm) project files
+.idea/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# Django development server logs and database file
+db.sqlite3
+*.log
+
+
+# Virtual environment
+venv/
+.env/
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Configuration files that may contain sensitive information
+*.env
+
+# Ignore migrations (You may choose to commit migrations, but it's often better not to)
+**/migrations/
