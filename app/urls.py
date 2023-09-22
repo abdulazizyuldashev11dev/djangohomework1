@@ -1,8 +1,8 @@
 from django.urls import path
-from .views import CreateAPiView, ListAPiView, UpdateStatus
+from .views import AppCreateView, AppListApiView, AppUpdateView
 
 urlpatterns = [
-    path('create/', CreateAPiView.as_view()),
-    path('all/', ListAPiView.as_view()),
-    path('update_status/<int:news_id>/', UpdateStatus.as_view()),
+    path('create/', AppCreateView.as_view()),
+    path('all/', AppListApiView.as_view()),
+    path('update_status/<int:id>/', AppUpdateView.as_view()),
 ]
